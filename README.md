@@ -12,4 +12,4 @@ This project focuses on automating the generation of medical reports using Chest
 
 1. Run `Preprocessing Data.ipynb` file to generate `*.csv` (train, test & validation) files which are used in the next step.  
 2. Run `ChexNet_Enc_Dec.ipynb` file to generate the image feature vector and the pickle file is stored for the same.  
-3. Finally we can execute `Encoder-Decoder` or `Attention` code to train the model and get the final output using Beam Search.  
+3. Finally we can execute `Encoder_Decoder.ipynb` or `Attention_Model.ipynb` code to train the model and get the final output using Beam Search.  
